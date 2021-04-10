@@ -1,3 +1,7 @@
+Responsive Project Management Web Application Developed with React and Designed for Software Engineers IT Support Analysts and Cyber Security Experts.
+
+This web application features localstorage, therefore please avoid clearing your web browsers cache before completing your list of items to do complete.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
