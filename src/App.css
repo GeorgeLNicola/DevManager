@@ -2,8 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -87,6 +86,7 @@ h1 {
   display: flex;
   flex-direction: row;
   position: relative;
+  background: #161a2b;
 }
 
 .todo-row {
@@ -144,4 +144,21 @@ h1 {
 
 .edit-icon {
   color: #fff;
+}
+
+body {
+  background: #161a2b;
+}
+
+.navBarSection {
+  background: #161a2b;
+}
+
+html {
+  background: #161a2b;
+}
+
+#collasible-nav-dropdown {
+  background-color: darkblue;
+  border-radius: 50px;
 }
