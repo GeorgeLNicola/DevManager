@@ -1,4 +1,6 @@
+import { set } from 'local-storage';
 import React, { useState, useEffect, useRef } from 'react';
+import Todo from './Todo';
 
 function TodoForm(props) {
   const [input, setInput] = useState(props.edit ? props.edit.value : '');

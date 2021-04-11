@@ -1,4 +1,4 @@
-Responsive Project Management Web Application Developed with React and Designed for Software Engineers IT Support Analysts and Cyber Security Experts.
+Responsive Project Management Web Application Developed with React and Designed for Software Engineers, IT Support Analysts and Cyber Security Experts.
 
 This web application features localstorage, therefore please avoid clearing your web browsers cache before completing your list of items to do complete.
 
