@@ -159,7 +159,8 @@ html {
 }
 
 #collasible-nav-dropdown {
-  background-color: darkblue;
+  background-color: #9b00fa;
+  color: white;
   border-radius: 50px;
 }
 
