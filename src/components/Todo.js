@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+//Importing of forms
 import TodoForm from './TodoForm';
 import { RiCloseCircleLine } from 'react-icons/ri';
 import { TiEdit } from 'react-icons/ti';
 
+//Hooks to remove, edit and submit forms
 const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
   const [edit, setEdit] = useState({
     id: null,
