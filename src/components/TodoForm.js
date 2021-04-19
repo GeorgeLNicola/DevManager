@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Todo from "./Todo";
 
+//Extra state to manage if the input is initialized or not, and then the input is in localstorage.
 function TodoForm(props) {
   const [input, setInput] = useState(props.edit ? props.edit.value : "");
   const [inititalized, setInititalized] = useState(false);
