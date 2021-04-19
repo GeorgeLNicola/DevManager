@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from 'react-bootstrap';
 import NavDropdown from 'react-bootstrap/NavDropdown'
 
+//Bootstrap navbar turned into toggle
 const NavBar = () => {
   return (
     <Navbar bg="black" variant="dark" sticky="top">
