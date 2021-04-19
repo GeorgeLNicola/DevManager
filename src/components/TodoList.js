@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import TodoForm from "./TodoForm";
 import Todo from "./Todo";
 
+//Extra state to manage the todos if they're initialized or not, then sets todos in localstorage.
 function TodoList() {
   const [todos, setTodos] = useState([]);
   const [inititalized, setInititalized] = useState(false);
@@ -22,6 +23,7 @@ function TodoList() {
     setInititalized(true);
   });
 
+  //Functions to add and manage todos
   const addTodo = (todo) => {
     if (!todo.text || /^\s*$/.test(todo.text)) {
       return;
